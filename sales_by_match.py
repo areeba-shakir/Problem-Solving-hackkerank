@@ -53,7 +53,6 @@ def sockMerchant(n, ar):
     pairs = 0
     i = 0
     while i < n - 1:
-        print(i)
         if sorted_array[i] == sorted_array[i + 1]:
             pairs = pairs + 1
             i = i + 2
