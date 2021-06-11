@@ -19,6 +19,6 @@ def plusMinus(arr):
         else:
             d.update({'0': d.get('0', 0) + 1})
 
-    print("{:.6f}".format(d['p'] / len(arr)))
-    print("{:.6f}".format(d['n'] / len(arr)))
-    print("{:.6f}".format(d['0'] / len(arr)))
+    print("{:.6f}".format(d.get('p', 0) / len(arr)))
+    print("{:.6f}".format(d.get('n', 0) / len(arr)))
+    print("{:.6f}".format(d.get('0', 0) / len(arr)))
